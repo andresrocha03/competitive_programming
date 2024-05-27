@@ -9,7 +9,7 @@ int main() {
     cin.tie(0);
 
     int V = 300, u, v, w, dist[NODES][NODES], c=1;
-    int n, sum, big, k;
+    int n, big, k;
      
     cin >> n;
     for (int i = 1; i <= n; i++) {
@@ -42,39 +42,36 @@ int main() {
            
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= n; j++) {
-                    if (i != j) {
-                        if (dist[i][u] + w + dist[v][j] < dist[i][j]) {
-                        dist[i][j] = w; 
-                        dist[j][i] = w;
-                        cout << "i: " << i << "j: " << j << "u: " << u << "v " << v << "\n";
-                        cout << "HEY\n";
-                        }
-                        if (dist[i][v] + w + dist[u][j] < dist[i][j]) {
-                            dist[i][j] = w; 
-                            dist[j][i] = w;
-                             cout << "i: " << i << "j: " << j << "u: " << u << "v " << v << "\n";
-                            cout << "HEY\n";
-                        }
-
+                    if (dist[i][u] + w + dist[v][j] < dist[i][j]) {
+                        dist[i][j] = dist[i][u] + w + dist[v][j]; 
+                        dist[j][i] = dist[i][u] + w + dist[v][j];
+                        // cout << "i: " << i << "j: " << j << "u: " << u << "v " << v << "\n";
+                        // cout << "HEY\n";
                     }
-
+                    if (dist[i][v] + w + dist[u][j] < dist[i][j]) {
+                        dist[i][j] = dist[i][u] + w + dist[v][j]; 
+                        dist[j][i] = dist[i][u] + w + dist[v][j];
+                        // cout << "i: " << i << "j: " << j << "u: " << u << "v " << v << "\n";
+                        // cout << "HEY\n";
+                    }
                 }
-                for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= n; j++) {
-                    cout << dist[i][j] << " ";
-                }cout<< "\n";}
+                
+                // for (int i = 1; i <= n; i++) {
+                // for (int j = 1; j <= n; j++) {
+                //     cout << dist[i][j] << " ";
+                // }cout<< "\n";}
             }
         }
             
             
         
-        int sum = 0;
+        long long sum = 0;
         for (int i = 1; i <= n; i++) {
             for (int j = i; j <= n; j++) {
                 sum += dist[i][j];
             }
         }
-        cout << sum << " \n";
+        cout << sum << " ";
 
     }
 
