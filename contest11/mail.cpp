@@ -20,7 +20,6 @@ void dijkstra(int s, int V, int t, int i, vector<vii> AdjList) {
 
     while (!pq.empty()) {
         ii front = pq.top(); pq.pop();  // greedy: get shortest unvisited vertex
-        // cout << "front:" << front.first  << " " << front.second << "\n";       
         int d = front.first, u = front.second;
         if (d > dist[u]) continue;  // check for duplicates
 
@@ -30,8 +29,6 @@ void dijkstra(int s, int V, int t, int i, vector<vii> AdjList) {
                 dist[v.first] = dist[u] + v.second;  // relax operation
                 pred[v.first] = u;  // save predecessor
                 pq.push(ii(dist[v.first], v.first));
-                // cout << "dist:" << dist[v.first] << "\n";
-                // cout << "v.first: " << v.first << "\n";
             }
         }
     }
