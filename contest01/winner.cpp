@@ -5,31 +5,24 @@ using namespace std;
 
 struct player {
     string name;
-    vector<int> points;
+    int points;
 };
 
 vector<player> arr;
+vector<player> emulate_arr;
 
-int findi (string name) {
-    for (int i=0; i<arr.size(); i++) {
-        if (arr[i].name==name) return i;
+int findi (string name, vector<player> &vec) {
+    for (int i=0; i<vec.size(); i++) {
+        if (vec[i].name==name) return i;
     }
     return -1;
 }
 
-void add_player(string name, int point) {
+void add_player(string name, int point, vector<player>& vec) {
     player newplayer;
-    newplayer.name= name;
-    newplayer.points.pb(0);
-    newplayer.points.pb(point);
-    if 
-    arr.pb(newplayer);
-}
-
-void update_players(int i) {
-    for (int j=0; j<arr.size(); j++) {
-        if (j!= i) arr[j].points.pb(0);
-    }
+    newplayer.name = name;
+    newplayer.points = point;
+    vec.pb(newplayer); 
 }
 
 int main () {
@@ -37,46 +30,58 @@ int main () {
     cin.tie(0);
     int t;
     string name; 
-    int point, last, round=0; 
+    vector<pair<string,int>> name_score;
+    int point, last; 
     cin >> t;
 
+    // find final pontuations
     while (t--) {
         cin >> name >> point;
-        round++;
-        int i = findi(name);
+        name_score.pb(make_pair(name,point));
+        int i = findi(name, arr);
         if (i==-1) { 
-            add_player(name, point); 
-            i = findi(name);
+            add_player(name, point,arr); 
+            i = findi(name,arr);
         }
         else {
-            int last = arr[i].points.back();
-            arr[i].points.pb(last + point);
-        }
-        update_players(i);
+            arr[i].points = arr[i].points + point;
+        } 
     }
 
+    //find max
     int max = INT32_MIN;
     for (int j=0;j<arr.size();j++) {
-        if (arr[j].points.back() > max) max = arr[j].points.back(); 
+        if (arr[j].points > max) max = arr[j].points; 
     }
 
-    vector<int> winners; 
+    //find finalists
+    vector<string> finalists;
     for (int j=0;j<arr.size();j++) {
-        if (arr[j].points.back() == max) winners.pb(j); 
+        if (arr[j].points == max) finalists.pb(arr[j].name); 
     }
 
-    int min = 100000, owner;
-    for (int j=0; j<winners.size();j++) {
-        for (int k=0; k<arr[winners[j]].points.size(); k++) {
-            if (arr[winners[j]].points[k] == max) {
-                if (k<min) min = k;
-                owner = winners[j];
-            }
+    int winner;
+    
+    // emulate the game, the first finalist to score max is the winner
+    for (int j=0; j<name_score.size(); j++) {
+        name = name_score[j].first;
+        point = name_score[j].second;
+        int i = findi(name, emulate_arr);
+        if (i==-1) { 
+            add_player(name, point, emulate_arr); 
+            i = findi(name, emulate_arr);
+        }
+        else {
+            emulate_arr[i].points = emulate_arr[i].points + point;
+        }
+
+        if (emulate_arr[i].points >= max && find(finalists.begin(),finalists.end(), emulate_arr[i].name) != finalists.end()) {
+            winner = i; 
+            break;
         }
     }
 
-    cout << arr[owner].name << "\n";
-    
+    cout << emulate_arr[winner].name;
 
     return 0;
 }
