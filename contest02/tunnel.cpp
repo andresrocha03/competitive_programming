@@ -2,8 +2,8 @@
 using namespace std;
 
 
-int carin[100001];
-int carout[100001];
+int carin[100002];
+int carout[100002];
 
 
 
@@ -14,27 +14,36 @@ int main() {
     int n;
 
     cin >> n;
-    for (int i=0;i<n;i++) {
+    for (int i=1;i<n+1;i++) {
         cin >> carin[i];
     }    
-    int j = 0;
-    set<int> fined;
-    for (int i=0;i<n;i++) {
+    
+    for (int i=1;i<n+1;i++) {
         cin >> carout[i];
-        // cout << "carout " <<carout[i] << "\n";
-        // cout << "carin " <<carin[j] << "\n";
-        if (carout[i] != carin[j]) {
-            
-            fined.insert(carout[i]);
-        }
-        else {
-            j++;
-            if (fined.find(carin[j]) != fined.end()) {
-                j++;
-            }
-        }
-    }  
+    }
 
-    cout << fined.size() << "\n";
+    vector<int> orderout(n+1);
+    for (int i=1;i<n+1;i++) {
+        orderout[carout[i]] = i;
+        // cout << carout[i] << " ";
+    }
+    // cout << "\n";
+    
+    vector<int> place(n+1);
+    for (int i=1;i<n+1;i++) {
+        place[i] = orderout[carin[i]];
+        // cout << orderout[carin[i]] << " ";
+    }
+    // cout << "\n";
 
+    int max = -10, ans = 0;
+    for (int i=1;i<n+1;i++) {
+        if (place[i] > max) {
+            max = place[i];
+        }
+        else { 
+            ans++;
+        }
+    }
+    cout << ans << "\n";
 }
