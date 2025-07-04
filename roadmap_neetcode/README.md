@@ -4,4 +4,4 @@ This is dedicated for solving the problems of the neetcode roadmap available in 
 
 # Problems
 
-- check if there is a duplicate
+- [Contains duplicate](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/duplicate.cpp)
