@@ -1,3 +1,5 @@
+//Problem: determine if there is a duplicate in a vector
+//Sol: use a set to check for duplicates in O(1) time complexity
 class Solution {
 public:
     bool hasDuplicate(vector<int>& nums) {
