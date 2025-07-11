@@ -4,8 +4,8 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        map<char,int> smap;
-        map<char,int> tmap;
+        unordered_map<char,int> smap;
+        unordered_map<char,int> tmap;
         
         bool isanagram = true;
         if (s.size() != t.size()) return false;

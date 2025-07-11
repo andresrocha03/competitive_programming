@@ -1,9 +1,9 @@
 //Problem: determine if there is a duplicate in a vector
-//Sol: use a set to check for duplicates in O(1) time complexity
+//Sol: use an  unordered_set to check for duplicates in O(1) time complexity
 class Solution {
 public:
     bool hasDuplicate(vector<int>& nums) {
-        set<int> check;
+        unordered_set<int> check;
 
         bool repeat = false;
 
