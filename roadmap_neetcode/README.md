@@ -22,5 +22,5 @@ Python:
 - [Group Anagram](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/group_anagram.cpp)
 - [TopK](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/topkfrequent.cpp)
 - [Encode](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/encode.cpp)
--[Product](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/product.cpp)
+- [Product](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/product.cpp)
 - [Sudoku](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/sudoku.cpp)
