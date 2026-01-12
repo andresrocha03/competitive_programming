@@ -24,3 +24,4 @@ Python:
 - [Encode](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/encode.cpp)
 - [Product](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/product.cpp)
 - [Sudoku](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/sudoku.cpp)
+- [Longest Sequence]()
