@@ -5,7 +5,8 @@ This is dedicated for solving the problems of the neetcode roadmap available in 
 # Problems
 
 ### Hashing
-Notes: 
+Notes:
+
 CPP:
 
     - map and unordered_map are containers that store data in the form of key-value pairs. Maps are implemented using red-black trees and unordered_maps are implemented using hash_tables.
@@ -29,9 +30,11 @@ Python:
 ### Stack
 
 CPP:
+
     - stack container is a proper data structure for these problems
 
 Python: 
+
     - it is possible to use a list or import a deque from collection's module.
 
-- [Valid Parentheses]()
+- [Valid Parentheses](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/parentheses.cpp)
