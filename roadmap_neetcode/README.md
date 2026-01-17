@@ -27,3 +27,11 @@ Python:
 - [Longest Sequence](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/longseq.cpp)
 
 ### Stack
+
+CPP:
+    - stack container is a proper data structure for these problems
+
+Python: 
+    - it is possible to use a list or import a deque from collection's module.
+
+- [Valid Parentheses]()
