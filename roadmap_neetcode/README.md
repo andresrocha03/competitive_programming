@@ -38,3 +38,4 @@ Python:
     - it is possible to use a list or import a deque from collection's module.
 
 - [Valid Parentheses](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/parentheses.cpp)
+- [MinStack]()
