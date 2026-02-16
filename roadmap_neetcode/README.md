@@ -40,4 +40,4 @@ Python:
 - [Valid Parentheses](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/parentheses.cpp)
 - [MinStack](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/minstack.cpp)
 - [Reverse Polish](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/polish.cpp)
-- [Daily Temperatures]()
+- [Daily Temperatures](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/temperature.cpp)
