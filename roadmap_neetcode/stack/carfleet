@@ -1,0 +1,42 @@
+//Problem: given a vector of positions and speeds of cars travelling in a straight line, find the number of fleets to reach a target position
+//Sol:  sort vector by position in ascending and speed descending. If you find a slow car, it defines a fleet for the fastest ones behind it.
+
+class Solution {
+public:
+    bool sortCond(const pair<int, int>& a, const pair<int, int>& b) {
+        if (a.first != b.first) {
+            return (a.first < b.first);
+        } 
+        return (a.second > b.second);
+    }
+    int carFleet(int target, vector<int>& position, vector<int>& speed) {
+        //calculate the time it takes for each car to reach the target
+        vector<float> time;
+
+        vector<pair<int, int>> cars;
+        for (int i = 0; i < position.size(); i++) {
+            cars.push_back({position[i], speed[i]});
+        }
+
+        sort(cars.begin(), cars.end(), [](auto& a, auto& b) {
+            if (a.first != b.first) return a.first < b.first;
+            return a.second > b.second; // faster left, slower right
+            });
+
+        for (int i=0; i<cars.size(); i++) {
+            float tc = (float)(target - cars[i].first) / cars[i].second;
+            time.push_back(tc);
+        }
+
+        float ft = 0;
+        int fleets = 0; 
+        for (int i=position.size()-1; i>=0; i--) {
+            cout << time[i] << "\n";
+            if (time[i] > ft) { //the car is a fleet leader because it is slower than the fleet ahead
+                fleets++;
+                ft = time[i];
+            }
+        }
+        return fleets;
+    }
+};

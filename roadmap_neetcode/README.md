@@ -32,6 +32,7 @@ Python:
 CPP:
 
     - stack container is a proper data structure for these problems
+    - define a bool function sortCondition to combine with sort() and give your own sense to sorting
 
 Python: 
 
@@ -41,3 +42,4 @@ Python:
 - [MinStack](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/minstack.cpp)
 - [Reverse Polish](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/polish.cpp)
 - [Daily Temperatures](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/temperature.cpp)
+- [Car fleet]()
