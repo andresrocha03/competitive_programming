@@ -43,3 +43,4 @@ Python:
 - [Reverse Polish](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/polish.cpp)
 - [Daily Temperatures](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/temperature.cpp)
 - [Car fleet](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/carfleet)
+-[Rect](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/rectangle.cpp)
