@@ -1,5 +1,5 @@
 //Problem: given a list of rectangles' heights, find the largest rectangle that can be formed by adjacent rectangles.
-//Solution: use a stack to keep track of how far we can extend a rectangle
+//Solution: use a stack to keep track of how far we can extend a rectangles
 
 class Solution {
 public:
