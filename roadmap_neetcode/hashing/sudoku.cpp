@@ -1,4 +1,4 @@
-//Problem: Validate Sudoku
+//Problem: Validate Sudokus
 //Soltion: use hashmaps to check if a nmber is already present in row, column or square
 
 class Solution {
