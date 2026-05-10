@@ -8,26 +8,47 @@ int main() {
 
     //construct cow mapping to index and milk produced
     vector<string> cn = {"Bessie", "Elsie", "Daisy", "Gertie", "Annabelle", "Maggie", "Henrietta"};
-    map<int, string> cmilk;
+    map<string, int> cmilk;
 
+    //initialize map
+    for (int i=0; i<7;i++) cmilk[cn[i]] =0;
+    
+    
     int n; cin >> n;
     int milk;
     string name;
-    //read input
 
+    //read input
     for (int i=0;i<n;i++) {
         cin >> name >> milk;
-        cmilk[milk] = name;
+        cmilk[name] += milk;
     }
 
-    auto it = cmilk.lower_bound(0);
+    //put in a set to have order
+    set<pair<int,string>> cs;
+    for (auto cow:cmilk) {
+        cs.insert(make_pair(cow.second, cow.first));
+    }
 
-    auto it = cmilk.upper_bound(it->first);
+    int f = 1e6; 
+    int cand = -1;
+    int tie  = 0 ;
+    string candname;
+    int i =0;
+    for (auto cow:cs) {
+        if (cow.first > cs.begin()->first && cand ==-1) {
+            cand = cow.first;
+            candname = cow.second;
+        }
+        else if (cand != -1 && cow.first == cand) {
+            cout << "Tie\n";
+            tie = 1;
+            break;
+        }
+    }
 
-
-
-
-
+    if (cand == -1) cout << "Tie\n";
+    else if(tie == 0) cout << candname << "\n";
 
     return 0;
 }
