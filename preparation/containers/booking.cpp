@@ -17,7 +17,7 @@ int main() {
     for (int i=0; i<M; i++) {
         int c; cin >> c;
 
-        auto it = rooms.lower_bound({c,0});
+        auto it = rooms.lower_bound({c,-1});
 
         if (it == rooms.end()) cout << -1 << "\n";
         else {
