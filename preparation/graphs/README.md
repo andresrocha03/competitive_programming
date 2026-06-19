@@ -1,0 +1,7 @@
+# Graphs
+
+- DFS
+
+- BFS
+
+-Dijkstra
