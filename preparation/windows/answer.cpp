@@ -1,31 +1,33 @@
 #include <cstdio>
+#include <algorithm>
+#include <vector>
+#include <set>
 
-char S[3001], T[3000001]  ;
-int lenS, lenT ; 
+using namespace std;
 
-int nbZ = 256 ;
-int diff[ 256 ] ; // diff number in patterns - number in current window
-
-void change(int chr, int dir) {
-  if(diff[chr] == 0)
-    nbZ -- ;
-  diff[chr] += dir ;
-  if(diff[chr] == 0)
-    nbZ ++ ;
-}
+const int Tm = 1e5 + 10 ;
+long long spice[Tm], flavor[Tm], N, M;
 
 int main () {
-  scanf("%d %d\n%s\n%s\n",&lenS, &lenT,S,T);
-  for(int pos = 0 ; pos < lenS ; pos++) {
-    change(S[pos], +1) ;
-    change(T[pos], -1) ;
+  scanf("%lld %lld",&N,&M);
+  for(int i = 0 ; i < N ; i++)
+    scanf("%lld %lld",flavor+i,spice+i);
+  
+  long long start=0, cur_flavor=0, best_spiciness=1e9+10;
+  multiset<long long> spiciness ; // multiset is important here! We can have duplicate spiciness
+  
+  for(int end=0 ; end < N ; end++ ) { // we do a sliding window 
+    cur_flavor += flavor[end]; // add a new haybale
+    spiciness.insert(spice[end]); // add its spiciness
+    
+    while(cur_flavor-flavor[start]>=M) { // remove haybales while remaining above the target flavor
+      cur_flavor-=flavor[start];
+      spiciness.extract(spice[start]);
+      start++;
+    }
+    
+    if(cur_flavor>=M) // double check that we have enough flavor (might not be the case at the begginging)
+      best_spiciness=min(best_spiciness,*spiciness.rbegin());
   }
-  int res = 0 ;
-  for(int pos = lenS ; pos <= lenT ; pos++ ) {
-    if(nbZ == 256)
-      res++;
-    change(T[pos],-1) ;
-    change(T[pos-lenS],+1) ;
-  }
-  printf("%d\n",res);
-  return 0 ;}
+  printf("%lld\n",best_spiciness);
+}

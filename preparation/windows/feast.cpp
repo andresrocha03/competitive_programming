@@ -9,7 +9,6 @@ int main() {
     ll n,m; cin >> n >> m;
 
     vector<ll> fs, ss;
-
     for (int i=0;i<n;i++) {
         int f, s; cin >> f >> s;
         fs.push_back(f);
