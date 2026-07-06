@@ -1,0 +1,15 @@
+//Problem: Given a string s, determine if it is a palindrome
+//Solution: Read string in both ways simultaneously and check if it has the same characters
+
+class Solution {
+public:
+    bool isPalindrome(string S) {
+
+        bool res=true;
+        for (int i=0;i<S.size();i++) {
+            if (S[i]!=S[j]) return false;
+            j--;
+        }
+        return true;
+    }
+};
