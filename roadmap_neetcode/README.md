@@ -44,3 +44,10 @@ Python:
 - [Daily Temperatures](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/temperature.cpp)
 - [Car fleet](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/carfleet)
 -[Rect](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/rectangle.cpp)
+
+### Two pointers
+Notes:
+
+    - Use isalnum() to check whether a char is alphanumeric or not;
+
+- [Palindrome](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/palindrome) 
