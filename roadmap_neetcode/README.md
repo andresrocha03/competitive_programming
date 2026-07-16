@@ -54,8 +54,8 @@ Notes:
 
 - [TwoSum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/twosum.cpp)
 
--[3sum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/3sum.cpp)
+- [3sum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/3sum.cpp)
 
--[Container with most water](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/container.cpp)
+- [Container with most water](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/container.cpp)
 
--[Trapping Rain Water]()
+- [Trapping Rain Water](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/trapping_water.cpp)
