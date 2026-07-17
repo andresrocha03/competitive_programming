@@ -68,8 +68,8 @@ Notes:
 
     - We can use binary search in functions to find the minimum solution for a problem.
 
-- [Binary Search]()
+- [Binary Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/bin_search.cpp)
 
-- [Search a 2D Matrix]()
+- [Search a 2D Matrix](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/2dmatrix.cpp)
 
-- [Koko Eating Bananas]()
+- [Koko Eating Bananas](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/kokobananas.cpp)
