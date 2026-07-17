@@ -59,3 +59,17 @@ Notes:
 - [Container with most water](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/container.cpp)
 
 - [Trapping Rain Water](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/trapping_water.cpp)
+
+### Binary Search
+
+Notes:
+
+    - There is two ways of coding binary search: use an interval and work with two pointers, keeping the right answer inside that interval; or use a binary jump size to iterate the array, jumping when it is convenient until you reach the correct answer.
+
+    - We can use binary search in functions to find the minimum solution for a problem.
+
+- [Binary Search]()
+
+- [Search a 2D Matrix]()
+
+- [Koko Eating Bananas]()
