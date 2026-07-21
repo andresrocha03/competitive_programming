@@ -68,8 +68,18 @@ Notes:
 
     - We can use binary search in functions to find the minimum solution for a problem.
 
+    - Sometimes we use l < r, when we are sure that l==r returns the correct candidate. Others, we use l<=r, when we want to evaluate all possible candidates until none is left.
+
 - [Binary Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/bin_search.cpp)
 
 - [Search a 2D Matrix](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/2dmatrix.cpp)
 
 - [Koko Eating Bananas](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/kokobananas.cpp)
+
+- [Minimum in Rotated Array](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/rot_min_array.cpp)
+
+- [Search in Rotated Array](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/bin_search.cpp)
+
+- [Time based key-value store](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/time_store.cpp)
+
+- []()
