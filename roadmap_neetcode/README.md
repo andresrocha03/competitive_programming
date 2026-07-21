@@ -70,6 +70,8 @@ Notes:
 
     - Sometimes we use l < r, when we are sure that l==r returns the correct candidate. Others, we use l<=r, when we want to evaluate all possible candidates until none is left.
 
+    - Consider the stack of recursion when computing the complexity of space.
+
 - [Binary Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/bin_search.cpp)
 
 - [Search a 2D Matrix](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/2dmatrix.cpp)
@@ -82,4 +84,4 @@ Notes:
 
 - [Time based key-value store](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/time_store.cpp)
 
-- []()
+- [Find Median of Sorted Arrays](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/find_median.cpp)
