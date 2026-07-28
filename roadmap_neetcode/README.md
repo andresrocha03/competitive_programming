@@ -85,3 +85,13 @@ Notes:
 - [Time based key-value store](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/time_store.cpp)
 
 - [Find Median of Sorted Arrays](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/find_median.cpp)
+
+### Sliding Window
+Notes:
+    - Usually we can assume O(1) for unordered containers operations, but in the worst case there can be collisions. Then, we would have to traverse a bucket to do operations and complexity would be O(N) - this is very specific and unusual for competitive programming problems not focused in adversarial hashing. 
+
+- [Best time to Buy and Sell Stock](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/stock.cpp)
+
+- [Longest Substring Without Repeating Characters](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/subtring.cpp)
+
+- [Longest Repeating Character Replacement](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/replace.cpp)
