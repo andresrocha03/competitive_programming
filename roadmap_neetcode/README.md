@@ -95,3 +95,7 @@ Notes:
 - [Longest Substring Without Repeating Characters](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/subtring.cpp)
 
 - [Longest Repeating Character Replacement](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/replace.cpp)
+
+- [Permutation in String](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/permutation.cpp)
+
+- [Minimum Window Substring](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/min_substring.cpp )
