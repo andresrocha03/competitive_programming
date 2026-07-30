@@ -99,3 +99,8 @@ Notes:
 - [Permutation in String](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/permutation.cpp)
 
 - [Minimum Window Substring](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/min_substring.cpp )
+
+- [Sliding Window Maximum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/sliding_window/slidingmax.cpp)
+
+### Linked List
+
