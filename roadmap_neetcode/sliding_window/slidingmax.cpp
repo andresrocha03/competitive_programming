@@ -5,16 +5,16 @@ class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         
-        set<int> wind;
+        multiset<int> wind;
         vector<int> res;
         for (int i=0;i<k;i++) {
             wind.insert(nums[i]);
         }
-        res.push_back(wind.rbegin());
+        res.push_back(*wind.rbegin());
         for (int i=k;i<nums.size();i++) {
-            wind.erase(wind.begin());
+            wind.erase(wind.find(nums[i-k]));
             wind.insert(nums[i]);
-            res.push_back(wind.rbegin());
+            res.push_back(*wind.rbegin());
         }
         return res;
     }
