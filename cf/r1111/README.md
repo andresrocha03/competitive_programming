@@ -1,4 +1,4 @@
-# Notes 
+# Notes
 
 - Constructive algorithms: in this kind of problem, we need to build an object that satisfy certain constraints. Some useful approaches are: use a greedy strategy to build the solution incrementally; find an invariant preserved by every operation; find hidden patterns; try to build another object that is easier first.
 
