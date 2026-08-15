@@ -10,8 +10,6 @@ void change(int a, int c) {
     if (freq[a]==0) nb--;
 }
 
-
-
 int main() {
     int f, s; cin >> f >> s;
     string ref, coded;

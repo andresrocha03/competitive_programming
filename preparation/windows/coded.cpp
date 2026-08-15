@@ -15,7 +15,7 @@ void up(int pos, int d) {
 int main() {
     
     int s, t; cin >> s >> t;
-    int mm=0, res=0;
+    int res=0;
 
     string secret, txt;
     cin >> secret >> txt;

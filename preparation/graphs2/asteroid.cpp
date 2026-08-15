@@ -22,7 +22,7 @@ bool dfs(int s) {
                 flow[s][j]++;
                 flow[j][s]--;
                 return true;
-            }
+            } 
         }
     }
     return false;
