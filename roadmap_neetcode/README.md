@@ -107,8 +107,8 @@ Notes:
 Notes:
     - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to the object node with attribute val.
 
-- [Reverse Linked List]()
+- [Reverse Linked List](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/reverse.cpp)
 
-- [Merge Two Sorted Linked Lists]()
+- [Merge Two Sorted Linked Lists](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/merge.cpp)
 
-- [Linked List Cycle Detection]()
+- [Linked List Cycle Detection](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/cycle.cpp)
