@@ -104,3 +104,11 @@ Notes:
 
 ### Linked List
 
+Notes:
+    - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to the object node with attribute val.
+
+- [Reverse Linked List]()
+
+- [Merge Two Sorted Linked Lists]()
+
+- [Linked List Cycle Detection]()
