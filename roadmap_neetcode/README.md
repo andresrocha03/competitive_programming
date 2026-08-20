@@ -105,10 +105,22 @@ Notes:
 ### Linked List
 
 Notes:
-    - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to the object node with attribute val.
+    - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to an object with attribute val.
+
+    - Accessing front or back in vector is constant. Removing back as well. Removing in front is linear in the vector size.
+
+    - Shallow copy copies the address, while deep copy creates a new object.
 
 - [Reverse Linked List](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/reverse.cpp)
 
 - [Merge Two Sorted Linked Lists](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/merge.cpp)
 
 - [Linked List Cycle Detection](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/cycle.cpp)
+
+- [Reorder Linked List](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/reorder.cpp)
+
+- [Remove Nth Node from the end of the list](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/remove.cpp)
+
+- [Copy Linked List With Random Pointer](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/copy.cpp)
+
+- [Add Two Numbers](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/add.cpp)
