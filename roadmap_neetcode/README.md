@@ -111,6 +111,10 @@ Notes:
 
     - Shallow copy copies the address, while deep copy creates a new object.
 
+    - Floyd's cycle detection algorithm uses two pointers (one fast and slow). If they match, we have found a cycle.
+
+    - List is implemented as a double linked list in cpp.
+
 - [Reverse Linked List](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/reverse.cpp)
 
 - [Merge Two Sorted Linked Lists](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/merge.cpp)
@@ -124,3 +128,7 @@ Notes:
 - [Copy Linked List With Random Pointer](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/copy.cpp)
 
 - [Add Two Numbers](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/add.cpp)
+
+- [Find the Duplicate Number](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/duplicate.cpp)
+
+- [LRU Cache](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/lru_cache.cpp)
