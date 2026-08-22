@@ -132,3 +132,13 @@ Notes:
 - [Find the Duplicate Number](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/duplicate.cpp)
 
 - [LRU Cache](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/lru_cache.cpp)
+
+
+### Trees
+
+- [Invert Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/invert.cpp)
+
+- [Maximum Depth of Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/maxdepth.cpp)
+
+- [Diameter of Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/diameter.cpp)
+
