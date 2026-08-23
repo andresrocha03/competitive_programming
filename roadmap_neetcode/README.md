@@ -142,8 +142,8 @@ Notes:
 
 - [Diameter of Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/diameter.cpp)
 
-- [Balanced Binary Tree]()
+- [Balanced Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/balanced.cpp)
 
-- [Same Binary Tree]()
+- [Same Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/same.cpp)
 
-- [Subtree of Another Tree]()
+- [Subtree of Another Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/subtree.cpp)
