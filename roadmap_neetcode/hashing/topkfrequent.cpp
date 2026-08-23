@@ -17,7 +17,7 @@ public:
         for (int i=0; i<n; i++) {
             counter[nums[i]]++;
         }
-        //flip keys and values of vector so we have <frequency, vector<num>>
+        //flip keys and values of vector so we have <frequency, set<num>>
         for (auto key: counter) {
             flip_counter[key.second].insert(key.first);
         }
