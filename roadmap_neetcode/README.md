@@ -136,6 +136,11 @@ Notes:
 
 ### Trees
 
+Notes:
+    - Depth and height are both node properties. 
+        - Depth is the distance to the root. 
+        - Height is the longest distance to a leaf.
+
 - [Invert Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/invert.cpp)
 
 - [Maximum Depth of Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/maxdepth.cpp)
