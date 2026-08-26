@@ -1,4 +1,4 @@
-//Problem: given a vector of heights, in which element of index i is the height of a bar positioned at i, find the maximum area that can be calculated between two bars
+//Problem: given a vector of heights, in which element of index i is the height of a bar positioned at i, find the maximum rectangle area that can be calculated between two bars
 //Sol: Use two pointers, one at the beggining and one at the end. Move the pointer of the smaller bar.
 
 class Solution {

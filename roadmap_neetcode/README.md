@@ -141,6 +141,13 @@ Notes:
         - Depth is the distance to the root. 
         - Height is the longest distance to a leaf.
 
+    - BST: A Binary Search Tree (BST) is a tree in which the values of all nodes in the left subtree of a node are less than the node's value, and the values of all nodes in the right subtree are greater than the node's value.
+
+    - top() method only works for stack and prioirty queue, the other containers use front() and back().
+
+    - When  we do vec.push_back(vec2), CPP copies the content of vec2 (another vector), it is not a deep copy.
+    
+
 - [Invert Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/invert.cpp)
 
 - [Maximum Depth of Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/maxdepth.cpp)
@@ -152,3 +159,9 @@ Notes:
 - [Same Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/same.cpp)
 
 - [Subtree of Another Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/subtree.cpp)
+
+- [Lowest Common Ancestor in inary Search Tree]()
+
+- [Binary Tree Level Order Traversal]()
+
+- [Binary Tree Right Side View]()

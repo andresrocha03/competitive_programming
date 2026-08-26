@@ -6,7 +6,7 @@ using namespace std;
 bool isPalindrome(string S) {
     //normalize string to lower case and remove non-alphanumeric characters
     string clean = "";
-    cout << S << "\n";
+    //cout << S << "\n";
     for (int i=0;i<S.size();i++) {
         if (isalnum(S[i])) {
             clean+=tolower(S[i]); 

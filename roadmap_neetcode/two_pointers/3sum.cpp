@@ -1,5 +1,5 @@
 //Problem: Given an array of numbers, find all unique triplets that sum to zero
-//Sol: Compute sums and check if their negative exist in the input array of numbers
+//Sol: For each element, check if the sum of the remaining two elements equals its negative in the input array
 
 class Solution {
     public:
