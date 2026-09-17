@@ -164,4 +164,18 @@ Notes:
 
 - [Binary Tree Level Order Traversal](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/traversal.cpp)
 
-- [Binary Tree Right Side View](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/rightsideview.cpp)
+- [Binary Tree Right Side View](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/rightsideview.cpp     )
+
+- [Count Good Nodes in Binary Tree]()
+
+- [Valid Binary Search Tree]()
+
+- [Kth Smallest Element in a Binary Search Tree]()
+
+- [Construct Binary Tree from preorder and inorder traversal]()
+
+### Tries
+
+- [Implement Trie prefix tree]()
+
+- [Design word and add data structure]()
