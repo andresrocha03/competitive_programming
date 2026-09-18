@@ -11,7 +11,7 @@ int main() {
         cout << "YES\n";
         cout << "2\n";
         cout << "1 2\n";
-        cout << "1\n";
+        cout << "1\n"
         cout << "3\n";
     }
     else if (n%2 != 0) {
