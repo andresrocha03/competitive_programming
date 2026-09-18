@@ -179,3 +179,12 @@ Notes:
 - [Implement Trie prefix tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/trie.cpp)
 
 - [Design word and add data structure](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/word-search.cpp)
+
+
+### Backtracking
+
+- [Subsets]()
+
+- [Combination Sum]()
+
+- [Combination Sum II]()
