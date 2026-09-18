@@ -166,16 +166,16 @@ Notes:
 
 - [Binary Tree Right Side View](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/rightsideview.cpp     )
 
-- [Count Good Nodes in Binary Tree]()
+- [Count Good Nodes in Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/goodnodes.cpp)
 
-- [Valid Binary Search Tree]()
+- [Valid Binary Search Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/valid.cpp)
 
-- [Kth Smallest Element in a Binary Search Tree]()
+- [Kth Smallest Element in a Binary Search Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/k-smallest.cpp)
 
-- [Construct Binary Tree from preorder and inorder traversal]()
+- [Construct Binary Tree from preorder and inorder traversal](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/pre-and-in-order.cpp)
 
 ### Tries
 
-- [Implement Trie prefix tree]()
+- [Implement Trie prefix tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/trie.cpp)
 
-- [Design word and add data structure]()
+- [Design word and add data structure](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/word-search.cpp)
