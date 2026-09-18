@@ -183,8 +183,8 @@ Notes:
 
 ### Backtracking
 
-- [Subsets]()
+- [Subsets](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/substes.cpp)
 
-- [Combination Sum]()
+- [Combination Sum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/combination.cpp)
 
-- [Combination Sum II]()
+- [Combination Sum II](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/combinations2.cpp)
