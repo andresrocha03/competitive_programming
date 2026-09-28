@@ -189,10 +189,10 @@ Notes:
 
 - [Combination Sum II](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/combinations2.cpp)
 
-- [Permutations]()
+- [Permutations](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/permutations.cpp)
 
-- [Subsets II]()
+- [Subsets II](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/subsets2.cpp)
 
-- [Generate Parentheses]()
+- [Generate Parentheses](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/parentheses.cpp)
 
-- [Word Search]()
+- [Word Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/board.cpp)
