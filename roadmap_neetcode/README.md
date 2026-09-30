@@ -197,6 +197,6 @@ Notes:
 
 - [Word Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/board.cpp)
 
-- [Palindrome Partitioning]()
+- [Palindrome Partitioning](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/palindrome.cpp)
 
-- [Letter Combinations of a Phone Number]()
+- [Letter Combinations of a Phone Number](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/digits.cpp)
