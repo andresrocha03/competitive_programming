@@ -196,3 +196,7 @@ Notes:
 - [Generate Parentheses](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/parentheses.cpp)
 
 - [Word Search](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/board.cpp)
+
+- [Palindrome Partitioning]()
+
+- [Letter Combinations of a Phone Number]()

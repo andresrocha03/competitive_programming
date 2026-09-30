@@ -1,5 +1,5 @@
 //Problem: Given an array and a slinding window of size k, return maximum element of the window as it slides.
-//Sol: Compute the maximum for the first window in linear time. Put all elements of window in a set and then always retrieve the last (maximum) element.
+//Sol: Compute the maximum for the first window. Put all elements of window in a set and then always retrieve the last (maximum) element.
 
 class Solution {
 public:
