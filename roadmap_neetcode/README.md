@@ -5,6 +5,7 @@ This is dedicated for solving the problems of the neetcode roadmap available in 
 # Problems
 
 ### Hashing
+
 Notes:
 
 CPP:
@@ -17,15 +18,15 @@ Python:
     - use defauldict to automatically create a default value when a key is accessed for the first time.
     - python's dictionary is a hash table.
 
-- [Contains duplicate](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/duplicate.cpp)
-- [Anagram](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/anagram.cpp)
-- [TwoSum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/twosum.cpp)
-- [Group Anagram](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/group_anagram.cpp)
-- [TopK](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/topkfrequent.cpp)
-- [Encode](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/encode.cpp)
-- [Product](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/product.cpp)
-- [Sudoku](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/sudoku.cpp)
-- [Longest Sequence](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/longseq.cpp)
+- [Contains duplicate](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/duplicate.cpp)
+- [Anagram](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/anagram.cpp)
+- [TwoSum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/twosum.cpp)
+- [Group Anagram](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/group_anagram.cpp)
+- [TopK](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/topkfrequent.cpp)
+- [Encode](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/encode.cpp)
+- [Product](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/product.cpp)
+- [Sudoku](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/sudoku.cpp)
+- [Longest Sequence](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/hashing/longseq.cpp)
 
 ### Stack
 
@@ -34,7 +35,7 @@ CPP:
     - stack container is a proper data structure for these problems
     - define a bool function sortCondition to combine with sort() and give your own sense to sorting
 
-Python: 
+Python:
 
     - it is possible to use a list or import a deque from collection's module.
 
@@ -42,15 +43,15 @@ Python:
 - [MinStack](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/minstack.cpp)
 - [Reverse Polish](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/polish.cpp)
 - [Daily Temperatures](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/temperature.cpp)
-- [Car fleet](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/carfleet)
--[Rect](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/rectangle.cpp)
+- [Car fleet](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/carfleet) -[Rect](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/stack/rectangle.cpp)
 
 ### Two pointers
+
 Notes:
 
     - Use isalnum() to check whether a char is alphanumeric or not;
 
-- [Palindrome](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/palindrome) 
+- [Palindrome](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/palindrome)
 
 - [TwoSum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/two_pointers/twosum.cpp)
 
@@ -87,8 +88,8 @@ Notes:
 - [Find Median of Sorted Arrays](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/binary_search/find_median.cpp)
 
 ### Sliding Window
-Notes:
-    - Usually we can assume O(1) for unordered containers operations, but in the worst case there can be collisions. Then, we would have to traverse a bucket to do operations and complexity would be O(N) - this is very specific and unusual for competitive programming problems not focused in adversarial hashing. 
+
+Notes: - Usually we can assume O(1) for unordered containers operations, but in the worst case there can be collisions. Then, we would have to traverse a bucket to do operations and complexity would be O(N) - this is very specific and unusual for competitive programming problems not focused in adversarial hashing.
 
 - [Best time to Buy and Sell Stock](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/stock.cpp)
 
@@ -98,14 +99,13 @@ Notes:
 
 - [Permutation in String](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/permutation.cpp)
 
-- [Minimum Window Substring](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/min_substring.cpp )
+- [Minimum Window Substring](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/slinding_window/min_substring.cpp)
 
 - [Sliding Window Maximum](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/sliding_window/slidingmax.cpp)
 
 ### Linked List
 
-Notes:
-    - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to an object with attribute val.
+Notes: - When we have a pointer, we use * to dereference it. If the pointer points to some object, we can use -> to simultaneously dereference and have access to the attributes. Ex: (*node).val = node->val, where node is a pointer to an object with attribute val.
 
     - Accessing front or back in vector is constant. Removing back as well. Removing in front is linear in the vector size.
 
@@ -133,20 +133,15 @@ Notes:
 
 - [LRU Cache](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/linked_list/lru_cache.cpp)
 
-
 ### Trees
 
-Notes:
-    - Depth and height are both node properties. 
-        - Depth is the distance to the root. 
-        - Height is the longest distance to a leaf.
+Notes: - Depth and height are both node properties. - Depth is the distance to the root. - Height is the longest distance to a leaf.
 
     - BST: A Binary Search Tree (BST) is a tree in which the values of all nodes in the left subtree of a node are less than the node's value, and the values of all nodes in the right subtree are greater than the node's value.
 
     - top() method only works for stack and prioirty queue, the other containers use front() and back().
 
     - When  we do vec.push_back(vec2), CPP copies the content of vec2 (another vector), it is not a deep copy.
-    
 
 - [Invert Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/invert.cpp)
 
@@ -164,7 +159,7 @@ Notes:
 
 - [Binary Tree Level Order Traversal](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/traversal.cpp)
 
-- [Binary Tree Right Side View](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/rightsideview.cpp     )
+- [Binary Tree Right Side View](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/rightsideview.cpp)
 
 - [Count Good Nodes in Binary Tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trees/goodnodes.cpp)
 
@@ -179,7 +174,6 @@ Notes:
 - [Implement Trie prefix tree](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/trie.cpp)
 
 - [Design word and add data structure](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/trie/word-search.cpp)
-
 
 ### Backtracking
 
@@ -200,3 +194,19 @@ Notes:
 - [Palindrome Partitioning](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/palindrome.cpp)
 
 - [Letter Combinations of a Phone Number](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/backtracking/digits.cpp)
+
+### Heap
+
+Notes: - We can use lambda function to declare a personalized comparator auto compare = [](const T& a, const T& b) {return condition;}; The condition should be true when we want a to come before (to be "less" than) b.
+
+- [Kth Largest Element in a Stream](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/klargeest2.cpp)
+
+- [Last Stone Weight](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/stones.cpp)
+
+- [K closest points to the origing](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/points.cpp)
+
+- [Kth largest element in an array](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/klargeest2.cpp)
+
+- [Task Scheduler](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/klargeest2.cpp)
+
+- [Design Twitter](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/twitter.cpp)
