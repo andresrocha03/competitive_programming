@@ -210,3 +210,11 @@ Notes: - We can use lambda function to declare a personalized comparator auto co
 - [Task Scheduler](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/klargeest2.cpp)
 
 - [Design Twitter](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/heap/twitter.cpp)
+
+### Dynamic Programming
+
+- [Climbing Stairs](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/stairs.py)
+
+- [Min Cost Clibing Stairs](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/mincoststair.py)
+
+- [House Robber](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/houserob.py)
