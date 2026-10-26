@@ -218,3 +218,13 @@ Notes: - We can use lambda function to declare a personalized comparator auto co
 - [Min Cost Clibing Stairs](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/mincoststair.py)
 
 - [House Robber](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/houserob.py)
+
+- [House Rober II](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/houserob2.py)
+
+- [Longest Palindromic Substring](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/palind.py)
+
+- [Palindromic Substrings](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/palind2.py)
+
+- [Decode Ways](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/decode.py)
+
+- [Coin Change](https://github.com/andresrocha03/competitive_programming/blob/main/roadmap_neetcode/dp/coins.py)
